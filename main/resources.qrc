@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="play.svg">resources/play.svg</file>
+        <file alias="pause.svg">resources/pause.svg</file>
+        <file alias="icon.ico">resources/logo.ico</file>
+        <file alias="cc-by-sa.png">resources/by-sa.png</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file alias="break.png">resources/break.png</file>
+    </qresource>
+</RCC>

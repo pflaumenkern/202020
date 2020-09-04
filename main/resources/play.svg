@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   height="23.418428"
+   width="21.141783"
+   version="1.1"
+   viewBox="0 0 21.141783 23.418428"
+   data-name="圖層 1"
+   id="圖層_1">
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>工作區域 3</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#83c5be;stroke:#006d77;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.52px;}</style>
+  </defs>
+  <title
+     id="title6">工作區域 3</title>
+  <path
+     id="path8"
+     d="m 18.87,9.9192142 -14.51,-8.4 a 2.07,2.07 0 0 0 -3.1,1.79 V 20.109214 a 2.07,2.07 0 0 0 3.1,1.79 l 14.55,-8.4 A 2.07,2.07 0 0 0 18.87,9.9192142 Z"
+     class="cls-1" />
+</svg>
