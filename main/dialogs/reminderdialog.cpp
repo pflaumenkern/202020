@@ -20,11 +20,19 @@
 #include "reminderdialog.hpp"
 #include "ui_reminderdialog.h"
 
+#include <QPushButton>
+
 ReminderDialog::ReminderDialog(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::ReminderDialog)
 {
     ui->setupUi(this);
+    // Fake button removing focus from OK button
+    auto helpButton = ui->buttonBox->button(QDialogButtonBox::Help);
+    if (helpButton) {
+        helpButton->setDefault(true);
+        helpButton->setDisabled(true);
+    }
 }
 
 ReminderDialog::~ReminderDialog()
