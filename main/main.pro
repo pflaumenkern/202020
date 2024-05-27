@@ -52,6 +52,14 @@ FORMS += \
 #else: unix:!android: target.path = /opt/$${TARGET}/bin
 #!isEmpty(target.path): INSTALLS += target
 
+# Icon
+win32 {
+    RC_ICONS = resources/logo.ico
+}
+macx {
+    ICON = resources/logo.icns
+}
+
 RESOURCES += \
     resources.qrc
 
