@@ -21,7 +21,6 @@
 #include "mainwindowpresenter.hpp"
 #include "dialogs/aboutdialogfactory.hpp"
 #include "dialogs/reminderdialog.hpp"
-#include "settings/settings.hpp"
 #include "settings/settingswidgetpresenter.hpp"
 
 #include <QApplication>
@@ -29,10 +28,10 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    QApplication::setOrganizationDomain("mare.tech");
+    QApplication::setOrganizationDomain("pflaumenkern.dev");
     QApplication::setOrganizationName("Matthias Reißer");
     QApplication::setApplicationName("20-20-20");
-    QApplication::setApplicationVersion("1.0.0");
+    QApplication::setApplicationVersion("1.0.1");
 
     AboutDialogFactory aboutDialogFactory;
     ReminderDialog reminderDialog;
