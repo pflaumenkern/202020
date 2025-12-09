@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
     QApplication::setOrganizationDomain("pflaumenkern.dev");
     QApplication::setOrganizationName("Matthias Reißer");
     QApplication::setApplicationName("20-20-20");
-    QApplication::setApplicationVersion("1.0.1");
+    QApplication::setApplicationVersion("1.0.2");
 
     AboutDialogFactory aboutDialogFactory;
     ReminderDialog reminderDialog;

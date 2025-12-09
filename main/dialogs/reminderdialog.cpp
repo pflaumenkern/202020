@@ -27,6 +27,7 @@ ReminderDialog::ReminderDialog(QWidget *parent)
     , ui(new Ui::ReminderDialog)
 {
     ui->setupUi(this);
+    setWindowFlag(Qt::WindowStaysOnTopHint, true);
     // Fake button removing focus from OK button
     auto helpButton = ui->buttonBox->button(QDialogButtonBox::Help);
     if (helpButton) {
